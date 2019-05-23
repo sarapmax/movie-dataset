@@ -11,25 +11,49 @@ $client->setApplicationName('movie-dataset');
 $client->setDeveloperKey('AIzaSyCBeyYRlIY1mSRndQo_N7Kqh3yETatlaxM');
 
 $service = new Google_Service_YouTube($client);
+$sentiment = new \Movie\PHPInsight\Sentiment();
 
 // List of 30 best movie trailers in 2018
 $imdbBestMovies2018Json = file_get_contents('./imdb-best-movies-2018.json');
 $imdbBestMovies2018 = json_decode($imdbBestMovies2018Json,true);
 
-$movieDataset = [];
+// Dataset Header.
+$movieDataset[0] = [
+    'movie_title',
+    'genre',
+    'genre_weight_frequency',
+    'sequel_movie',
+    'director_follower_count_on_twitter',
+    'actor_follower_count_on_twitter',
+    'actress_follower_count_on_twitter',
+    'official_trailer_view_count_on_youtube',
+    'official_trailer_comment_count_on_youtube',
+    'official_trailer_like_count_on_youtube',
+    'official_trailer_dislike_count_on_youtube',
+    'gross_income',
+    'sentiment_analysis',
+    'movie_rating_on_imdb',
+    'movie_rating_on_rotten_tomatoes',
+];
 
-$sentiment = new \Movie\PHPInsight\Sentiment();
+echo "Enter dataset file name: ";
+$handle = fopen ("php://stdin","r");
+$fileName = trim(fgets($handle));
+fclose($handle);
+
+$fp = fopen($fileName . '.csv', 'wb');
+fputcsv($fp, $movieDataset[0], ',');
 
 foreach ($imdbBestMovies2018['movies'] as $movieIndex =>  $movie) {
-    $movieDataset[$movieIndex]['name'] = $movie['name'];
+    $movieIndex += 1;
+
+    $movieDataset[$movieIndex]['movie_title'] = $movie['movie_title'];
+    $movieDataset[$movieIndex]['genre'] = $movie['genre'];
     $movieDataset[$movieIndex]['genre_weight_frequency'] = $movie['genre_weight_frequency'];
     $movieDataset[$movieIndex]['sequel_movie'] = $movie['sequel_movie'];
     $movieDataset[$movieIndex]['director_follower_count_on_twitter'] = $movie['director_follower_count_on_twitter'];
     $movieDataset[$movieIndex]['actor_follower_count_on_twitter'] = $movie['actor_follower_count_on_twitter'];
     $movieDataset[$movieIndex]['actress_follower_count_on_twitter'] = $movie['actress_follower_count_on_twitter'];
-    $movieDataset[$movieIndex]['movie_rating_on_imdb'] = $movie['movie_rating_on_imdb'];
-    $movieDataset[$movieIndex]['movie_rating_on_rotten_tomatoes'] = $movie['movie_rating_on_rotten_tomatoes'];
-    $movieDataset[$movieIndex]['gross'] = $movie['gross'];
 
     $sentimentScore = [];
     $sentimentClass = [];
@@ -68,9 +92,18 @@ foreach ($imdbBestMovies2018['movies'] as $movieIndex =>  $movie) {
         $sentimentClass += $sentimentClass;
     }
 
+    $movieDataset[$movieIndex]['gross_income'] = $movie['gross_income'];
+
     // Get the most sentimental value.
     $movieDataset[$movieIndex]['sentiment_analysis'] = getTheMostDuplicatedValueInArray($sentimentClass);
+
+    $movieDataset[$movieIndex]['movie_rating_on_imdb'] = $movie['movie_rating_on_imdb'];
+    $movieDataset[$movieIndex]['movie_rating_on_rotten_tomatoes'] = $movie['movie_rating_on_rotten_tomatoes'];
+
+    fputcsv($fp, $movieDataset[$movieIndex], ',');
 }
+
+fclose($fp);
 
 function getTheMostDuplicatedValueInArray(array $array) {
     $result = array_count_values($array);
