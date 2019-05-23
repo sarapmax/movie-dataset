@@ -1,7 +1,8 @@
 {
     "movies": [
         {
-            "name": "Avengers: Infinity War",
+            "movie_title": "Avengers: Infinity War",
+            "genre": "Action",
             "genre_weight_frequency": 0.6,
             "sequel_movie": 10,
             "director_follower_count_on_twitter": 867993,
@@ -10,10 +11,11 @@
             "trailer_video_ids": ["QwievZ1Tx-8", "6ZfuNTqbHE8"],
             "movie_rating_on_imdb": 8.5,
             "movie_rating_on_rotten_tomatoes": "Top Hit",
-            "gross": 2048359754
+            "gross_income": 2048359754
         },
         {
-            "name": "Black Panther",
+            "movie_title": "Black Panther",
+            "genre":  "Action",
             "genre_weight_frequency": 0.6,
             "sequel_movie": 1,
             "director_follower_count_on_twitter": null,
@@ -22,10 +24,11 @@
             "trailer_video_ids": ["xjDjIWPwcPU"],
             "movie_rating_on_imdb": 7.3,
             "movie_rating_on_rotten_tomatoes":  "Top Hit",
-            "gross": 1346913161
+            "gross_income": 1346913161
         },
         {
-            "name": "Deadpool 2",
+            "movie_title": "Deadpool 2",
+            "genre":  "Action",
             "genre_weight_frequency": 0.6,
             "sequel_movie": 10,
             "director_follower_count_on_twitter": 7442,
@@ -34,10 +37,11 @@
             "trailer_video_ids": ["D86RtevtfrA", "20bpjtCbCz0"],
             "movie_rating_on_imdb": null,
             "movie_rating_on_rotten_tomatoes": "Top Hit",
-            "gross": 785046920
+            "gross_income": 785046920
         },
         {
-            "name": "Jurassic World: Fallen Kingdom",
+            "movie_title": "Jurassic World: Fallen Kingdom",
+            "genre":  "Action",
             "genre_weight_frequency": 0.6,
             "sequel_movie": 10,
             "director_follower_count_on_twitter": null,
@@ -46,10 +50,11 @@
             "trailer_video_ids": ["vn9mMeWcgoM", "1FJD7jZqZEk"],
             "movie_rating_on_imdb": 6.2,
             "movie_rating_on_rotten_tomatoes":  "Flop",
-            "gross": 1309484461
+            "gross_income": 1309484461
         },
         {
-            "name": "The Meg",
+            "movie_title": "The Meg",
+            "genre":  "Action",
             "genre_weight_frequency": 0.6,
             "sequel_movie": 1,
             "director_follower_count_on_twitter": null,
@@ -58,10 +63,11 @@
             "trailer_video_ids": ["udm5jUA-2bs"],
             "movie_rating_on_imdb": 5.7,
             "movie_rating_on_rotten_tomatoes":  "Flop",
-            "gross": 530243742
+            "gross_income": 530243742
         },
         {
-            "name": "Venom",
+            "movie_title": "Venom",
+            "genre":  "Action",
             "genre_weight_frequency": 0.6,
             "sequel_movie": 1,
             "director_follower_count_on_twitter": 13432,
@@ -70,10 +76,11 @@
             "trailer_video_ids": ["u9Mv98Gr5pY", "xLCn88bfW1o"],
             "movie_rating_on_imdb": 6.7,
             "movie_rating_on_rotten_tomatoes":  "Flop",
-            "gross": 855013954
+            "gross_income": 855013954
         },
         {
-            "name": "Mission: Impossible - Fallout",
+            "movie_title": "Mission: Impossible - Fallout",
+            "genre":  "Action",
             "genre_weight_frequency": 0.6,
             "sequel_movie": 10,
             "director_follower_count_on_twitter": 72601,
@@ -82,10 +89,11 @@
             "trailer_video_ids": ["wb49-oV0F78", "XiHiW4N7-bo"],
             "movie_rating_on_imdb": 7.8,
             "movie_rating_on_rotten_tomatoes": "Top Hit",
-            "gross": 791115104
+            "gross_income": 791115104
         },
         {
-            "name": "Ready Player One",
+            "movie_title": "Ready Player One",
+            "genre":  "Action",
             "genre_weight_frequency": 0.6,
             "sequel_movie": 1,
             "director_follower_count_on_twitter": null,
@@ -94,10 +102,11 @@
             "trailer_video_ids": ["cSp1dM2Vj48"],
             "movie_rating_on_imdb": 7.5,
             "movie_rating_on_rotten_tomatoes": "Top Hit",
-            "gross": 582890172
+            "gross_income": 582890172
         },
         {
-            "name": "Incredibles 2",
+            "movie_title": "Incredibles 2",
+            "genre":  "Animation",
             "genre_weight_frequency": 0.05,
             "sequel_movie": 10,
             "director_follower_count_on_twitter": 140320,
@@ -106,10 +115,11 @@
             "trailer_video_ids": ["i5qOzqD9Rms"],
             "movie_rating_on_imdb": 7.7,
             "movie_rating_on_rotten_tomatoes": "Top Hit",
-            "gross": 1242805359
+            "gross_income": 1242805359
         },
         {
-            "name": "Bohemian Rhapsody",
+            "movie_title": "Bohemian Rhapsody",
+            "genre":  "Biography",
             "genre_weight_frequency": 0.05,
             "sequel_movie": 1,
             "director_follower_count_on_twitter": 234519,
@@ -118,10 +128,11 @@
             "trailer_video_ids": ["mP0VHJYFOAU"],
             "movie_rating_on_imdb": 8.1,
             "movie_rating_on_rotten_tomatoes":  "Neutral",
-            "gross": 903175016
+            "gross_income": 903175016
         },
         {
-            "name": "Ant-Man and the Wasp",
+            "movie_title": "Ant-Man and the Wasp",
+            "genre":  "Action",
             "genre_weight_frequency": 0.6,
             "sequel_movie": 10,
             "director_follower_count_on_twitter": 45464,
@@ -130,10 +141,11 @@
             "trailer_video_ids": ["8_rTIAOohas", "UUkn-enk2RU"],
             "movie_rating_on_imdb": 7.1,
             "movie_rating_on_rotten_tomatoes": "Top Hit",
-            "gross": 622674139
+            "gross_income": 622674139
         },
         {
-            "name": "Solo: A Star Wars Story",
+            "movie_title": "Solo: A Star Wars Story",
+            "genre":  "Action",
             "genre_weight_frequency": 0.6,
             "sequel_movie": 10,
             "director_follower_count_on_twitter": 2549637,
@@ -142,10 +154,11 @@
             "trailer_video_ids": ["jPEYpryMp2s"],
             "movie_rating_on_imdb": 7,
             "movie_rating_on_rotten_tomatoes": "Neutral",
-            "gross": 392924807
+            "gross_income": 392924807
         },
         {
-            "name": "A Quiet Place",
+            "movie_title": "A Quiet Place",
+            "genre":  "Drama",
             "genre_weight_frequency": 0.05,
             "sequel_movie": 1,
             "director_follower_count_on_twitter": 2070382,
@@ -154,10 +167,11 @@
             "trailer_video_ids": ["WR7cc5t7tv8"],
             "movie_rating_on_imdb": 7.6,
             "movie_rating_on_rotten_tomatoes": "Top Hit",
-            "gross": 340939361
+            "gross_income": 340939361
         },
         {
-            "name": "The Predator",
+            "movie_title": "The Predator",
+            "genre":  "Action",
             "genre_weight_frequency": 0.6,
             "sequel_movie": 10,
             "director_follower_count_on_twitter": 31265,
@@ -166,10 +180,11 @@
             "trailer_video_ids": ["WaG1KZqrLvM", "50_Ala5BKBo"],
             "movie_rating_on_imdb": 5.4,
             "movie_rating_on_rotten_tomatoes": "Flop",
-            "gross": 160542134
+            "gross_income": 160542134
         },
         {
-            "name": "Fantastic Beasts: The Crimes of Grindelwald",
+            "movie_title": "Fantastic Beasts: The Crimes of Grindelwald",
+            "genre":  "Adventure",
             "genre_weight_frequency": 0.05,
             "sequel_movie": 10,
             "director_follower_count_on_twitter": 36777,
@@ -178,10 +193,11 @@
             "trailer_video_ids": ["vvFybpmyB9E", "8bYBOVWLNIs"],
             "movie_rating_on_imdb": 6.7,
             "movie_rating_on_rotten_tomatoes": "Flop",
-            "gross": 653655901
+            "gross_income": 653655901
         },
         {
-            "name": "A STAR IS BORN",
+            "movie_title": "A STAR IS BORN",
+            "genre":  "Drama",
             "genre_weight_frequency": 0.1,
             "sequel_movie": 1,
             "director_follower_count_on_twitter": null,
@@ -190,10 +206,11 @@
             "trailer_video_ids": ["nSbzyEJ8X9E"],
             "movie_rating_on_imdb": 7.8,
             "movie_rating_on_rotten_tomatoes": "Top Hit",
-            "gross": 434188866
+            "gross_income": 434188866
         },
         {
-            "name": "The Nun",
+            "movie_title": "The Nun",
+            "genre":  "Horror",
             "genre_weight_frequency": 0.1,
             "sequel_movie": 1,
             "director_follower_count_on_twitter": 8606,
@@ -202,10 +219,11 @@
             "trailer_video_ids": ["pzD9zGcUNrw"],
             "movie_rating_on_imdb": 5.4,
             "movie_rating_on_rotten_tomatoes": "Flop",
-            "gross": 365550119
+            "gross_income": 365550119
         },
         {
-            "name": "Halloween",
+            "movie_title": "Halloween",
+            "genre":  "Horror",
             "genre_weight_frequency": 0.1,
             "sequel_movie": 1,
             "director_follower_count_on_twitter": null,
@@ -214,10 +232,11 @@
             "trailer_video_ids": ["ek1ePFp-nBI"],
             "movie_rating_on_imdb": 6.7,
             "movie_rating_on_rotten_tomatoes": "Top Hit",
-            "gross": 254285709
+            "gross_income": 254285709
         },
         {
-            "name": "Ocean's Eight",
+            "movie_title": "Ocean's Eight",
+            "genre":  "Action",
             "genre_weight_frequency": 0.6,
             "sequel_movie": 1,
             "director_follower_count_on_twitter": 3129,
@@ -226,10 +245,11 @@
             "trailer_video_ids": ["MFWF9dU5Zc0", "n5LoVcVsiSQ"],
             "movie_rating_on_imdb": 6.2,
             "movie_rating_on_rotten_tomatoes": "Neutral",
-            "gross": 297718711
+            "gross_income": 297718711
         },
         {
-            "name": "Mamma Mia! Here We Go Again",
+            "movie_title": "Mamma Mia! Here We Go Again",
+            "genre":  "Comedy",
             "genre_weight_frequency": 0.05,
             "sequel_movie": 1,
             "director_follower_count_on_twitter": null,
@@ -238,8 +258,7 @@
             "trailer_video_ids": ["XcSMdhfKga4", "nd4cLL_MP7M"],
             "movie_rating_on_imdb": 6.8,
             "movie_rating_on_rotten_tomatoes": "Top Hit",
-            "gross": 394745881
+            "gross_income": 394745881
         }
     ]
 }
-
