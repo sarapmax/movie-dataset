@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imdb-best-movies-2018.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6399">
-              <caret line="237" column="64" lean-forward="true" selection-start-line="237" selection-start-column="64" selection-end-line="237" selection-end-column="64" />
+            <state relative-caret-position="540">
+              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -31,6 +31,9 @@
       <find>$index</find>
       <find>movie_rating</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -69,8 +72,10 @@
     <option name="width" value="1440" />
     <option name="height" value="831" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <showExcludedFiles Scope="true" ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -80,11 +85,6 @@
             <path>
               <item name="movie-dataset" type="b2602c69:ProjectViewProjectNode" />
               <item name="movie-dataset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movie-dataset" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movie-dataset" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -137,11 +137,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22611000" />
+    <option name="totallyTimeSpent" value="23422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -229,16 +228,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dictionaries/source.ign.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/data.neg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret column="15579" selection-start-column="15579" selection-end-column="15579" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dictionaries/source.ign.php" />
+    <entry file="file://$PROJECT_DIR$/src/data/data.neg.php" />
     <entry file="file://$PROJECT_DIR$/src/PHPInsight/data/data.ign.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -282,8 +273,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imdb-best-movies-2018.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6399">
-          <caret line="237" column="64" lean-forward="true" selection-start-line="237" selection-start-column="64" selection-end-line="237" selection-end-column="64" />
+        <state relative-caret-position="540">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
         </state>
       </provider>
     </entry>
